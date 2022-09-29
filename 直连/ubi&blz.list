@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com
 DOMAIN-SUFFIX,uplay.com
 DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN-SUFFIX,ubi.com
+DOMAIN-KEYWORD,ubisoft-avatars
+DOMAIN-KEYWORD,ubistatic
+DOMAIN,ubistatic3-a.akamaihd.net
