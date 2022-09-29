@@ -13,3 +13,5 @@ DOMAIN-SUFFIX,ubisoft.com
 DOMAIN-SUFFIX,dmx.upc.ubisoft.com
 DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
 DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com
+DOMAIN-SUFFIX,uplay.com
+DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
