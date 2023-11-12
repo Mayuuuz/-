@@ -155,6 +155,13 @@ dns:
     - 'wmsjsteam.com'
     - '*.steamchina.com'
     - 'content.warframe.com'
+    ## KOOK
+    - '#.kookapp.com'
+    - '#.kookapp.cn'
+    - '#.kaiheila.cn'
+    - '#.kaiheila.com'
+    - '#.kook.cn'
+    - '#.kook.com'
   nameserver:
      - 114.114.114.114 # 114DNS
      - 223.5.5.5 # 阿里DNS
