@@ -67,6 +67,7 @@ dns:
   ipv6: false # 当此选项为 false 时, AAAA 请求将返回空
   listen: 0.0.0.0:53
   default-nameserver:
+    - 192.168.31.1
     - 8.8.8.8
     - 114.114.114.114
     - 223.5.5.5
@@ -77,8 +78,8 @@ dns:
     # === LAN ===
     - '*.lan'
     # === Linksys Wireless Router ===
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
+    #- '*.linksys.com'
+    #- '*.linksyssmartwifi.com'
     # === Apple Software Update Service ===
     #- 'swscan.apple.com'
     #- 'mesu.apple.com'
@@ -86,7 +87,6 @@ dns:
     - 'time.*.com'
     - 'time.*.gov'
     - 'time.*.edu.cn'
-
     - 'time1.*.com'
     - 'time2.*.com'
     - 'time3.*.com'
@@ -94,7 +94,6 @@ dns:
     - 'time5.*.com'
     - 'time6.*.com'
     - 'time7.*.com'
-
     - 'ntp.*.com'
     - 'ntp.*.com'
     - 'ntp1.*.com'
@@ -104,7 +103,6 @@ dns:
     - 'ntp5.*.com'
     - 'ntp6.*.com'
     - 'ntp7.*.com'
-
     - '*.time.edu.cn'
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
@@ -123,7 +121,7 @@ dns:
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
-    ## QQ
+    ## Tencent
     - '+.y.qq.com'
     - '+.music.tc.qq.com'
     - 'aqqmusic.tc.qq.com'
@@ -133,8 +131,31 @@ dns:
     ## Migu
     - '+.music.migu.cn'
     ## bili
-     - '+.bilibili.tv'
-     - '+.bilibili.com'
+     - '*.bilibili.tv'
+     - '*.bilibili.com'
+     - '*.b23.tv'
+     - '*.acgvideo.com'
+     - '*.biliapi.com'
+     - '*.biliapi.net'
+     - '*.bilivideo.cn'
+     - '*.bilivideo.com'
+    ## steamdownload
+     - 'Edge.steam-dns.top.cpmcast.net'
+     - '*.Qtlglb.com'
+     - 'Steampipe.akamaized.net'
+     - 'csgo.wmsj.cn'
+     - 'dl.steam.clngaa.com'
+     - 'dl.steam.ksyna.com'
+     - 'dota2.wmsj.cn'
+     - 'st.dl.bscstorage.net'
+     - 'st.dl.eccdnx.com'
+     - 'st.dl.pinyuncloud.com'
+     - 'steampipe.steamcontent.tnkjmec.com'
+     - 'steampowered.com.8686c.com'
+     - 'steamstatic.com.8686c.com'
+     - 'wmsjsteam.com'
+     - '*.steamchina.com'
+     - 'content.warframe.com'
   nameserver:
      - 114.114.114.114 # 114DNS
      - 223.5.5.5 # 阿里DNS
