@@ -131,6 +131,9 @@ dns:
     ## Migu
     - '+.music.migu.cn'
     ## bili
+    - 'apiintl.biliapi.net'
+    - '*.acgvideo.com'
+    - '*.bigfun.cn'
     - '*.bilibili.tv'
     - '*.bilibili.com'
     - '*.b23.tv'
