@@ -141,7 +141,6 @@ dns:
     - '*.bilivideo.com'
     ## steamdownload
     - 'Edge.steam-dns.top.cpmcast.net'
-    - '*.Qtlglb.com'
     - 'Steampipe.akamaized.net'
     - 'csgo.wmsj.cn'
     - 'dl.steam.clngaa.com'
