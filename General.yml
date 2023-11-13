@@ -67,7 +67,6 @@ dns:
   ipv6: false # 当此选项为 false 时, AAAA 请求将返回空
   listen: 0.0.0.0:53
   default-nameserver:
-    - 192.168.31.1
     - 8.8.8.8
     - 114.114.114.114
     - 223.5.5.5
@@ -142,22 +141,6 @@ dns:
     - '*.biliapi.net'
     - '*.bilivideo.cn'
     - '*.bilivideo.com'
-    ## steamdownload
-    - 'Edge.steam-dns.top.cpmcast.net'
-    - 'Steampipe.akamaized.net'
-    - 'csgo.wmsj.cn'
-    - 'dl.steam.clngaa.com'
-    - 'dl.steam.ksyna.com'
-    - 'dota2.wmsj.cn'
-    - 'st.dl.bscstorage.net'
-    - 'st.dl.eccdnx.com'
-    - 'st.dl.pinyuncloud.com'
-    - 'steampipe.steamcontent.tnkjmec.com'
-    - 'steampowered.com.8686c.com'
-    - 'steamstatic.com.8686c.com'
-    - 'wmsjsteam.com'
-    - '*.steamchina.com'
-    - 'content.warframe.com'
     ## KOOK
     - '#.kookapp.com'
     - '#.kookapp.cn'
