@@ -16,3 +16,5 @@ DOMAIN-SUFFIX,steamchina.com
 DOMAIN-KEYWORD,steamcontent
 DOMAIN-KEYWORD,steampipe
 DOMAIN,content.warframe.com
+DOMAIN,ssl-lvlt.cdn.ea.com
+DOMAIN,origin-a.akamaihd.net
