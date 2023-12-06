@@ -148,14 +148,6 @@ dns:
     - '#.kaiheila.com'
     - '#.kook.cn'
     - '#.kook.com'
-    ## EAapp
-    - 'service-aggregation-layer.juno.ea.com'
-    - 'contentful-proxy.juno.ea.com'
-    - 'autopatch.juno.ea.com'
-    - 'desktop-config.juno.ea.com'
-    - 'ratt.juno.ea.com'
-    - 'api1.origin.com'
-    - 'rtm.tnt-ea.com'
   nameserver:
      - 114.114.114.114 # 114DNS
      - 223.5.5.5 # 阿里DNS
