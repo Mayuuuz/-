@@ -5,3 +5,10 @@ DOMAIN,autopatch.juno.ea.com
 DOMAIN,desktop-config.juno.ea.com
 DOMAIN,ratt.juno.ea.com
 DOMAIN,api1.origin.com
+DOMAIN-SUFFIX,ea-anz-press.com
+DOMAIN-SUFFIX,eaaccess.com
+DOMAIN-SUFFIX,eastore.com
+DOMAIN-SUFFIX,eaplay.com
+DOMAIN,eaasserts-a.akamaihd.net
+DOMAIN,originasserts.akamaized.net
+DOMAIN,cloudsync-prod.s3.amazonaws.com
