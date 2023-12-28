@@ -73,7 +73,6 @@ dns:
   enhanced-mode: fake-ip # 模式：redir-host或fake-ip
   fake-ip-range: 198.18.0.1/16 #
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-   # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
     # === LAN ===
     - '*.lan'
     # === Linksys Wireless Router ===
@@ -83,28 +82,28 @@ dns:
     #- 'swscan.apple.com'
     #- 'mesu.apple.com'
     # === NTP Service ===
-    - 'time.*.com'
-    - 'time.*.gov'
-    - 'time.*.edu.cn'
-    - 'time1.*.com'
-    - 'time2.*.com'
-    - 'time3.*.com'
-    - 'time4.*.com'
-    - 'time5.*.com'
-    - 'time6.*.com'
-    - 'time7.*.com'
-    - 'ntp.*.com'
-    - 'ntp.*.com'
-    - 'ntp1.*.com'
-    - 'ntp2.*.com'
-    - 'ntp3.*.com'
-    - 'ntp4.*.com'
-    - 'ntp5.*.com'
-    - 'ntp6.*.com'
-    - 'ntp7.*.com'
-    - '*.time.edu.cn'
-    - '*.ntp.org.cn'
-    - '+.pool.ntp.org'
+    #- 'time.*.com'
+    #- 'time.*.gov'
+    #- 'time.*.edu.cn'
+    #- 'time1.*.com'
+    #- 'time2.*.com'
+    #- 'time3.*.com'
+    #- 'time4.*.com'
+    #- 'time5.*.com'
+    #- 'time6.*.com'
+    #- 'time7.*.com'
+    #- 'ntp.*.com'
+    #- 'ntp.*.com'
+    #- 'ntp1.*.com'
+    #- 'ntp2.*.com'
+    #- 'ntp3.*.com'
+    #- 'ntp4.*.com'
+    #- 'ntp5.*.com'
+    #- 'ntp6.*.com'
+    #- 'ntp7.*.com'
+    #- '*.time.edu.cn'
+    #- '*.ntp.org.cn'
+    #- '+.pool.ntp.org'
      ## NetEase
     - '+.music.163.com'
     - '*.126.net'
@@ -151,6 +150,7 @@ dns:
   nameserver:
      - 114.114.114.114 # 114DNS
      - 223.5.5.5 # 阿里DNS
+     - 8.8.8.8
      #- 180.76.76.76 # 百度DNS
      #- 119.29.29.29 # 腾讯DNS
      #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
@@ -160,7 +160,8 @@ dns:
   #fallback:
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
-     #- tls://dns.rubyfish.cn:853
+     - tls://dns.rubyfish.cn:853
+     - https://1.1.1.1/dns-query
      #- tls://1.0.0.1:853
      #- tls://dns.google:853
      #- https://dns.rubyfish.cn/dns-query
