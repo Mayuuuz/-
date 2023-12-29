@@ -62,7 +62,7 @@ log-level: debug
 #hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
-#unified-delay: true
+unified-delay: true
 tcp-concurrent: true
 
 #geo relevent
@@ -110,13 +110,6 @@ sniffer:
     - http
   # 强制对此域名进行嗅探
 
-  # 仅对白名单中的端口进行嗅探，默认为 443，80
-  # 已废弃，若 sniffer.sniff 配置则此项无效
-  port-whitelist:
-    - "80"
-    - "443"
-    # - 8000-9999
-
 # Tun 配置
 tun:
   enable: true
@@ -127,12 +120,12 @@ tun:
    auto-route: true # 配置路由表
   # mtu: 9000 # 最大传输单元
   # strict-route: true # 将所有连接路由到tun来防止泄漏，但你的设备将无法其他设备被访问
-  inet4-route-address: # 启用 auto_route 时使用自定义路由而不是默认路由
-    - 0.0.0.0/1
-    - 128.0.0.0/1
-  inet6-route-address: # 启用 auto_route 时使用自定义路由而不是默认路由
-    - "::/1"
-    - "8000::/1"
+  #inet4-route-address: # 启用 auto_route 时使用自定义路由而不是默认路由
+    #- 0.0.0.0/1
+    #- 128.0.0.0/1
+  #inet6-route-address: # 启用 auto_route 时使用自定义路由而不是默认路由
+    #- "::/1"
+    #- "8000::/1"
   # endpoint-independent-nat: false # 启用独立于端点的 NAT
   # include-uid: # UID 规则仅在 Linux 下被支持，并且需要 auto_route
   # - 0
