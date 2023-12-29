@@ -75,6 +75,7 @@ geox-url:
   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 global-ua: clash.meta
 
+#sniff
 sniffer:
   enable: false
   ## 对 redir-host 类型识别的流量进行强制嗅探
