@@ -46,8 +46,8 @@ log-level: debug
 # secret: ""
 
 # 实验性功能
-#experimental:
-  #sniff-tls-sni: ture
+experimental:
+  sniff-tls-sni: ture
   # ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
   # interface-name: en0 # outbound interface name
 
