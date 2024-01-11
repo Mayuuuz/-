@@ -66,14 +66,14 @@ log-level: debug
 #tcp-concurrent: true
 
 #geo relevent
-geodata-loader: memconservative
-geo-auto-update: false
-geo-update-interval: 24
-geox-url:
-  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
-global-ua: clash.meta
+#geodata-loader: memconservative
+#geo-auto-update: false
+#geo-update-interval: 24
+#geox-url:
+  #geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  #geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  #mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+#global-ua: clash.meta
 
 #sniff
 #sniffer:
