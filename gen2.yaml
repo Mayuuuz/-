@@ -263,7 +263,8 @@ tun:
   auto-route: true
   auto-detect-interface: true
   dns-hijack:
-    - 0.0.0.0:53
+    - any:53
+    
   # device: utun0
   # mtu: 9000
   # strict-route: true
