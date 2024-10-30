@@ -22,7 +22,7 @@ socks-port: 7891
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
 bind-address: "*"
-ipv6: false
+ipv6: ture
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 # mode: rule
@@ -119,7 +119,7 @@ tun:
   auto-detect-interface: true
   # 配置路由表
   auto-route: true
-  auto-redirect: true
+  # auto-redirect: true
   dns-hijack:
     - any:53
     - tcp://any:53
@@ -155,7 +155,7 @@ tun:
 #DNS
 dns:
   enable: true # 是否启用dns false
-  ipv6: false # 当此选项为 false 时, AAAA 请求将返回空
+  ipv6: ture # 当此选项为 false 时, AAAA 请求将返回空
   listen: 0.0.0.0:53
   default-nameserver:
     - 8.8.8.8
