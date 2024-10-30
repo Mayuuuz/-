@@ -22,7 +22,7 @@ socks-port: 7891
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
 bind-address: "*"
-ipv6: true
+ipv6: false
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 # mode: rule
@@ -77,7 +77,7 @@ global-ua: clash.meta
 
 #sniff
 sniffer:
-  enable: false
+  enable: true
   ## 对 redir-host 类型识别的流量进行强制嗅探
   ## 如：Tun、Redir 和 TProxy 并 DNS 为 redir-host 皆属于
   # force-dns-mapping: false
@@ -85,7 +85,7 @@ sniffer:
   # parse-pure-ip: false
   # 是否使用嗅探结果作为实际访问，默认 true
   # 全局配置，优先级低于 sniffer.sniff 实际配置
-  override-destination: false
+  override-destination: true
   sniff: # TLS 和 QUIC 默认如果不配置 ports 默认嗅探 443
     QUIC:
     #  ports: [ 443 ]
@@ -106,15 +106,15 @@ sniffer:
   #   - Mijia Cloud
   # 需要嗅探协议
   # 已废弃，若 sniffer.sniff 配置则此项无效
-  sniffing:
-    - tls
-    - http
+  # sniffing:
+    # - tls
+    # - http
   # 强制对此域名进行嗅探
 
 # Tun 配置
 tun:
   enable: true
-  stack: gvisor # gvisor / lwip
+  stack: mixed # gvisor / lwip
   dns-hijack:
     - 0.0.0.0:53 # 需要劫持的 DNS
    auto-detect-interface: true # 自动识别出口网卡
@@ -151,7 +151,7 @@ tun:
 #DNS
 dns:
   enable: true # 是否启用dns false
-  ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
+  ipv6: false # 当此选项为 false 时, AAAA 请求将返回空
   listen: 0.0.0.0:53
   default-nameserver:
     - 8.8.8.8
