@@ -62,8 +62,8 @@ log-level: debug
 #hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
-unified-delay: true
-tcp-concurrent: true
+# unified-delay: true
+# tcp-concurrent: true
 
 #geo relevent
 #geodata-loader: memconservative
